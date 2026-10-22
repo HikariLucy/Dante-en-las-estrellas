@@ -343,8 +343,8 @@ function dibujar_cuento()
   print("hermoso cabello rojito",20,42,10)
   print("de su mama.",42,54,10)
 
-  print("para mami,",44,94,7)
-  print("de dante",48,105,10)
+  print("ya es hora,",44,94,7)
+  print("de ir a casa",48,105,10)
 
   -- dante espera junto a la rosa
   spr(1,48,74)
