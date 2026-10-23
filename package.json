@@ -1,0 +1,10 @@
+{
+  "name": "dante-en-las-estrellas-web",
+  "private": true,
+  "type": "module",
+  "description": "Port HTML5 de Dante en las Estrellas (sin dependencias)",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "python3 scripts/build_web.py"
+  }
+}

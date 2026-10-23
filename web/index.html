@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Dante en las Estrellas</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="frame">
+  <div id="screen-wrap">
+    <canvas id="screen" width="128" height="128" aria-label="Dante en las Estrellas"></canvas>
+    <button id="start" type="button">
+      <span class="title">Dante en las Estrellas</span>
+      <span class="hint">Pulsa Z o toca para comenzar</span>
+    </button>
+    <div id="paused" hidden>Pausa</div>
+  </div>
+  <div id="touch" aria-hidden="true">
+    <div class="pad">
+      <button type="button" data-btn="0" tabindex="-1">&#9664;</button>
+      <button type="button" data-btn="1" tabindex="-1">&#9654;</button>
+    </div>
+    <button type="button" class="action" data-btn="4" tabindex="-1">Z</button>
+  </div>
+  <p id="help">&larr; &rarr; mover &middot; Z saltar / continuar &middot; M silenciar
+    <button id="mute" type="button" aria-pressed="false">Sonido: sí</button></p>
+</main>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
